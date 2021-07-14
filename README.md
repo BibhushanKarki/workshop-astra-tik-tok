@@ -215,7 +215,7 @@ Notice the clipboard icon at the end of each value.
 
 - `Token:` *This is your token!* We will use it as a api Key to interact with APIS
 
-To know more about roles of each token you can have a look to [this video.](https://www.youtube.com/watch?v=nRqu44W-bMU)
+[This video](https://www.youtube.com/watch?v=TUTCLsBuUd4) describes the procedure to generate a token in Astra DB.
 
 ### 7. Configure and connect database
  * In the repository directory run the following command to set up your Astra DB environment. This will verify the database you created earlier or create a new one for you if it can't find your database.
@@ -400,7 +400,7 @@ The `create` method is used when we want to add documents to our collection. For
 const users = await getCollection();
 ```
 
-Then we use the `create` method to create a document, providing the collection id, and body of the document.
+Then we use the `create` method to create a document, providing the _id_ and _body_ of the document.
 
 ``` javascript
 try {
