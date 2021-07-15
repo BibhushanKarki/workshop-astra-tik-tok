@@ -8,6 +8,9 @@ exports.handler = async function (event) {
     users.update(body.userId, body.data);
     return {
       statusCode: 200,
+      headers: {
+        'Content-type': 'application/json',
+      },
     };
   } catch (e) {
     console.error(e);

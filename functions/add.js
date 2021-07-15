@@ -10,6 +10,9 @@ exports.handler = async function (event) {
     return {
       statusCode: 200,
       body: JSON.stringify(user),
+      headers: {
+        'Content-type': 'application/json',
+      },
     };
   } catch (e) {
     console.error(e);

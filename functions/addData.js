@@ -77,6 +77,9 @@ exports.handler = async function () {
 
     return {
       statusCode: 200,
+      headers: {
+        'Content-type': 'application/json',
+      },
     };
   } catch (e) {
     console.error(e);

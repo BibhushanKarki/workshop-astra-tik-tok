@@ -7,6 +7,9 @@ exports.handler = async function () {
     return {
       statusCode: 200,
       body: JSON.stringify(Object.keys(res).map((i) => res[i])),
+      headers: {
+        'Content-type': 'application/json',
+      },
     };
   } catch (e) {
     console.error(e);
