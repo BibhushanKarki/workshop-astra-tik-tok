@@ -280,7 +280,7 @@ Execute each of the commands below to link your code to your Netlify deployment.
 -->
 
 ### 10. Deploy to production
-Now that you've hooked everything up, time to deplpoy to production.
+Now that you've hooked everything up, time to deploy to production.
 
   * Run
   ```
